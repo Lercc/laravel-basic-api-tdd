@@ -18,3 +18,16 @@
 
         - Para este caso se utiliza una prueba funcional que 
           abarca un todo de una de las lógicas de la aplicación.
+
+## CREACIÓN DEL TEST
+
+    - FEATURE TEST:
+        <pre>php artisan make:test NameTest</pre>
+    
+    - UNIT TEST:
+        <pre>php artisan make:test NameTest --unit</pre>
+
+    - CORRER LAS PRUEBAS
+        <pre>php artisan test</pre>
+        <pre>php vendor/phpunit/phpunit/phpunit</pre>
+
