@@ -1,7 +1,7 @@
 ## API - TDD
-    - ROJO      : make test first
-    - VERDE     : make logic that suport the test
-    - REFRACTOR : remake code that
+    - ROJO      : make test first.
+    - VERDE     : make logic code that support the test.
+    - REFRACTOR : remake code to eliminate redundancy.
 
 ## PHP UNI
    
@@ -19,6 +19,16 @@
         - Para este caso se utiliza una prueba funcional que 
           abarca un todo de una de las lógicas de la aplicación.
 
+    - Configuración inicial:
+        
+        - crear BD en /database : database.sqlite
+        
+        - configurar en /config/datadase 
+                -> connections sqlite -> database' => database_path('database.sqlite'),
+
+        - en phpunit.xml descomentar la conecion y la memoria
+        
+
 ## CREACIÓN DEL TEST
 
     - FEATURE TEST:
@@ -31,3 +41,11 @@
         <pre>php artisan test</pre>
         <pre>php vendor/phpunit/phpunit/phpunit</pre>
 
+## TESTING HTTP
+
+    - El testing http se realiza realizando pruebas a 
+      peticiones HTTP, un jemplo de caso serían las
+      API que basicamente son comunicaiones HTTP entre 
+      el back-end y el front-end.
+
+    
