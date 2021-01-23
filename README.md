@@ -3,7 +3,7 @@
     - VERDE     : make logic code that support the test.
     - REFRACTOR : remake code to eliminate redundancy.
 
-## PHP UNI
+## PHP UNIT
    
     - SUITE UNIT TEST - PRUEBAS UNITARIAS
         - Ayuda a provar pequeños bloques de cófigo
@@ -39,6 +39,7 @@
 
     - CORRER LAS PRUEBAS
         <pre>php artisan test</pre>
+        <pre>php artisan test --filter test_nameTest</pre>
         <pre>php vendor/phpunit/phpunit/phpunit</pre>
 
 ## TESTING HTTP
